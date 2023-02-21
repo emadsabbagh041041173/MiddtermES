@@ -4,9 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="#F0E5FD"
-    >
+    tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
@@ -18,8 +16,6 @@
         app:layout_constraintTop_toTopOf="parent"
         android:textSize="30dp"
         android:fontFamily="@string/fab_transformation_sheet_behavior"
-        android:textFontWeight="@android:integer/config_longAnimTime"
-        android:textColor="#00796B"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
